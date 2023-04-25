@@ -14,11 +14,55 @@
        while (condition is true) {
     code to be executed;
  }
-*/
+
     $x = 1;
     while($x <= 5){
         echo "thr number is : $x <br> ";
     }
     $x++ ;
+
+
+    // do while :
+        $x = 7;
+        do{
+            echo "this is the number : $x";
+            $x++;
+        }while($x <= 4);
+        
+
+     // for loop:
+        for ($x=0;$x <=10;$x++){
+            echo "this is the number : $x <br>";
+        }
+        
+           
+   // for each loop :
+     $color = array("red","green","blue","black");
+     foreach($color as $value){
+        echo "$value <br>";
+     }   
+
+*/
+   // break & continue :
+     for ($x=0; $x<=10 ; $x++){
+        if ($x == 4){
+            break;
+        }
+        echo "this number is : $x  <br>";
+     }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 ?>
